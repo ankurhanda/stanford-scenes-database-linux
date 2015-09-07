@@ -1,0 +1,3 @@
+databaseDirectory=../databaseSample
+defaultScene=scene00000
+textQuery=@
