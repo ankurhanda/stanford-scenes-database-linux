@@ -101,6 +101,8 @@ void SceneViewer::KeyPress(unsigned char key)
     case '6':
         _camera.LookRight(-angleDistance);
         break;
+    case 'i':
+        _scene.Save();
     default:
         //std::cout << key << ' ' << int(key) << std::endl;
         break;

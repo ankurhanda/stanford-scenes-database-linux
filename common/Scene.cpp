@@ -93,3 +93,8 @@ void Scene::Render()
 {
     _root->Render();
 }
+
+void Scene::Save()
+{
+    std::cout<<"Saving the scene" << std::endl;
+}

@@ -9,6 +9,7 @@ class Scene
 public:
     void Load(const Parameters &params, const std::string &filename, Assets &assets);
     void Render();
+    void Save();
 
 private:
     ModelInstance *_root;

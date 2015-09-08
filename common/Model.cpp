@@ -137,9 +137,9 @@ Model::Model(const std::string &directory, const std::string &baseFilename, Asse
         indices.clear();
     }
 
-    //
-    // Compile meshes
-    //
+    ///
+    /// Compile meshes
+    ///
     _displayList = glGenLists(1);
     
     glNewList(_displayList, GL_COMPILE);
